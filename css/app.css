@@ -15,11 +15,11 @@ h2{
 ==============================================================*/
 
 #top{
-    background:
+    
       /*          linear-gradient(
  rgba(0,0,0,0.5),
 rgba(128,128,128,0.5)),*/
-        url(../img/back1.jpg);
+        background-image:  url(../img/back1.jpg);
     background-repeat: no-repeat;
     background-size:contain;
       height: 46em;
@@ -37,6 +37,19 @@ header{
 /*nav*/
 nav a{
     margin: 1.5em;
+}
+
+
+.clicky{
+    border:2px solid orange;
+    height: 3em;
+    width: 10%;
+}
+
+
+/*animation*/
+
+    
 }
 
 /*============================================================ABOUT
