@@ -1,0 +1,50 @@
+/*BODY STYLES*/
+body{
+   
+    
+    
+}
+
+h2{
+    font-size: 1em;
+}
+
+/*.row.full { width: 100%; max-width: 100%; }
+.row.full>.column:first-child,
+.row.full>.columns:first-child { padding-left: 0; }
+.row.full>.column:last-child,
+.row.full>.columns:last-child { padding-right: 0; }*/
+
+
+/*TOP*/
+
+#top{
+    background:
+      /*          linear-gradient(
+ rgba(0,0,0,0.5),
+rgba(128,128,128,0.5)),*/
+        url(../img/back1.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+      height: 46em;
+    width: 100%;
+    
+}
+
+.head{
+    margin-top: 5em;
+}
+header{
+    margin-top: 5em;
+}
+
+/*ABOUT*/
+
+/*BLOG*/
+
+
+/*PORTFOLIO*/
+
+/*MEMBERS*/
+
+/*CONTACTS*/
