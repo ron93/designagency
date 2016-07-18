@@ -19,17 +19,15 @@ h2{
       /*          linear-gradient(
  rgba(0,0,0,0.5),
 rgba(128,128,128,0.5)),*/
-        background-image:  url(../img/back1.jpg);
+        background-image:  url(../img/back.jpg);
     background-repeat: no-repeat;
     background-size:contain;
-      height: 46em;
+      height: 70em;
     width: 100%;
     
 }
 
-.head{
-    margin-top: 10em;
-}
+
 header{
     
     margin-top: 5em;
@@ -38,16 +36,26 @@ header{
 }
 
 /*nav*/
+.head{
+    
+    margin-top: 10em;
+}
+.head nav{
+    position: absolute;
+}
+
+
+
 nav a{
     margin: 1.5em;
 }
 
 
-.clicky{
+/*.clicky{
     border:2px solid orange;
     height: 3em;
     width: 10%;
-}
+}*/
 
 
 
