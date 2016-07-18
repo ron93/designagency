@@ -31,7 +31,10 @@ rgba(128,128,128,0.5)),*/
     margin-top: 10em;
 }
 header{
+    
     margin-top: 5em;
+    text-align: center;
+    color: #754D8B;
 }
 
 /*nav*/
