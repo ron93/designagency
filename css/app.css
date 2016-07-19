@@ -28,9 +28,9 @@ h2{
       /*          linear-gradient(
  rgba(0,0,0,0.5),
 rgba(128,128,128,0.5)),*/
-        background-image:  url(../img/back2.jpg);
+        background-image:  url(../img/back3.jpg);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
       height: 55em;
     width: 100%;
     opacity: 1;
@@ -128,3 +128,11 @@ border: 3px solid #3B214A;
 
 /*============================================================CONTACTS
 ==============================================================*/
+button{
+    height: 3em;
+    width: 10%;
+    border: 1px solid whitesmoke;
+    
+}
+
+
