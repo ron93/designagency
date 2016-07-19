@@ -1,6 +1,6 @@
 /*BODY STYLES*/
 body{
-    height: 150em;
+  
    background-color: black;
     color: whitesmoke;
     
@@ -9,6 +9,7 @@ body{
 
 h2{
     font-size: 1em;
+    margin-top: 7em;
 }
 
 .row{
@@ -79,15 +80,12 @@ nav a{
 /*============================================================ABOUT
 ==============================================================*/
 #about{
-    height: 50em;
-    width: 90%;
-    border: 2px solid whitesmoke;
-    background-color: whitesmoke;
-    
+    border: 1px solid whitesmoke;
     
 }
+
 #about p{
-    margin: 3em;
+    margin: 2em;
     
 }
 
@@ -103,7 +101,7 @@ nav a{
     height: 55em;
     width: 93%;
    opacity: 0.8;
-    border-radius: 5%;
+    border-radius: 3%;
 }
 .show img{
     border: 1px solid black;
@@ -114,11 +112,15 @@ nav a{
 /*============================================================MEMBERS
 ==============================================================*/
 #members{
-    margin-top: 5em;
-    
+    margin-bottom: 5em;
+    height: 53em;
+    width: 95%;
+    background-color: whitesmoke;
+    border-radius: 3%;
+    opacity: 0.8;
 }
-#members .columns img{
-    border: 2px solid whitesmoke;
+#members img{
+    border: 1px solid black;
     
 }
 #members .columns{
@@ -128,6 +130,10 @@ nav a{
 
 /*============================================================CONTACTS
 ==============================================================*/
+#contacts{
+    margin-top: 3em;
+    
+}
 button{
     height: 3em;
     width: 12%;
