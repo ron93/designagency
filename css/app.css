@@ -1,6 +1,8 @@
 /*BODY STYLES*/
 body{
-   
+    height: 170em;
+   background-color: black;
+    color: whitesmoke;
     
     
 }
@@ -14,18 +16,26 @@ h2{
 /*============================================================TOP
 ==============================================================*/
 
+::before::after{
+    clear:"";
+}
+
 #top{
+    
     
       /*          linear-gradient(
  rgba(0,0,0,0.5),
 rgba(128,128,128,0.5)),*/
-        background-image:  url(../img/back.jpg);
+        background-image:  url(../img/back2.jpg);
     background-repeat: no-repeat;
     background-size:contain;
-      height: 70em;
+      height: 55em;
     width: 100%;
+    opacity: 1;
+   
     
 }
+
 
 
 header{
@@ -72,12 +82,14 @@ nav a{
 
 /*============================================================PORTFOLIO
 ==============================================================*/
-#portfolio{
-    background-clip: black;
+.2{
+    background-color: whitesmoke;
   border: 3px solid black; 
+    height: 100em;
+    width: 100%;
 }
 
-.show img{
+.show im
  
 border: 3px solid #3B214A;
     
