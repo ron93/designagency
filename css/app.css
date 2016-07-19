@@ -8,12 +8,8 @@ body{
 }
 
 h2{
-    font-size: 1em;
-    margin-top: 7em;
-    color:whitesmoke;
-}
-.row{
-    margin: 2em;
+    
+    color:black;
 }
 
 /*============================================================TOP
@@ -44,7 +40,7 @@ rgba(128,128,128,0.5)),*/
 
 header{
     
-    margin-top: 5em;
+  
     text-align: center;
     color: #754D8B;
 }
@@ -86,15 +82,16 @@ nav a{
 #about{
     border: 1px solid whitesmoke;
     background-color: whitesmoke;
-    height: 25em;
+    height: 12em;
     width: 90%;
     border-radius: 5%;
     opacity: 0.8;
+    margin-top: 1em;
+    
 }
 
 #about p{
-    margin: 2em;
-    margin-top: 4em;
+   
     color: black;
 }
 
@@ -107,7 +104,7 @@ nav a{
 #portfolio{
     background-color: whitesmoke;
   border: 3px solid black; 
-    height: 55em;
+    height: 45em;
     width: 93%;
    opacity: 0.8;
     border-radius: 3%;
@@ -116,14 +113,15 @@ nav a{
     border: 1px solid black;
     position: relative;
     display:inline-block;
+    margin-bottom: 0.5em;
 }
 
 
 /*============================================================MEMBERS
 ==============================================================*/
 #members{
-    margin-bottom: 5em;
-    height: 53em;
+  
+    height: 40em;
     width: 95%;
     background-color: whitesmoke;
     border-radius: 3%;
@@ -131,6 +129,7 @@ nav a{
 }
 #members img{
     border: 1px solid black;
+    margin-top: 1em;
     
 }
 #members .columns{
@@ -141,13 +140,16 @@ nav a{
 /*============================================================CONTACTS
 ==============================================================*/
 #contacts{
-    margin-top: 3em;
+  
     border: 1px solid whitesmoke;
     background-color: whitesmoke;
     opacity: 0.8;
-    height: 40em;
+    height: 30em;
     width: 80%;
     border-radius: 5%;
+    margin-left: 10%;
+      margin-top: 1em;
+    
     
     
     
@@ -160,10 +162,24 @@ button{
     
 }
 #contacts input, textarea{
-    margin-top: 3em;
+
     width: 80%;
     
 }
 textarea{
     height: 10em;
 }
+
+
+/*============================================================FOOTER
+===============================================================*/
+
+#bottom{
+    height: 20em;
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 5%;
+    background-color: whitesmoke;
+    
+}
+
