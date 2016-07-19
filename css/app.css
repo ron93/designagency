@@ -2,7 +2,7 @@
 body{
   
    background-color: black;
-    color: whitesmoke;
+    color: aqua;
     
     
 }
@@ -81,11 +81,12 @@ nav a{
 ==============================================================*/
 #about{
     border: 1px solid whitesmoke;
+    background-color: whitesmoke;
     
 }
 
 #about p{
-    margin: 2em;
+    margin: 1em;
     
 }
 
@@ -106,7 +107,6 @@ nav a{
 .show img{
     border: 1px solid black;
 }
-
 
 
 /*============================================================MEMBERS
@@ -132,13 +132,28 @@ nav a{
 ==============================================================*/
 #contacts{
     margin-top: 3em;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    height: 40em;
+    width: 80%;
+    border-radius: 5%;
+    
+    
     
 }
 button{
     height: 3em;
     width: 12%;
-    border: 1px solid whitesmoke;
+    border: 1px solid black;
+    color: aqua;
     
 }
-
-
+#contacts input, textarea{
+    margin-top: 3em;
+    width: 80%;
+    
+}
+textarea{
+    height: 10em;
+}
