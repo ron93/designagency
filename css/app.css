@@ -10,8 +10,8 @@ body{
 h2{
     font-size: 1em;
     margin-top: 7em;
+    color:whitesmoke;
 }
-
 .row{
     margin: 2em;
 }
@@ -21,6 +21,7 @@ h2{
 
 ::before::after{
     clear:"";
+    
 }
 
 #top{
@@ -29,7 +30,7 @@ h2{
       /*          linear-gradient(
  rgba(0,0,0,0.5),
 rgba(128,128,128,0.5)),*/
-        background-image:  url(../img/back3.jpg);
+        background-image:url(../img/back3.jpg);
     background-repeat: no-repeat;
     background-size:cover;
       height: 35em;
@@ -79,15 +80,22 @@ nav a{
 
 /*============================================================ABOUT
 ==============================================================*/
+::before::after{
+    clear:"";
+}
 #about{
     border: 1px solid whitesmoke;
     background-color: whitesmoke;
-    
+    height: 25em;
+    width: 90%;
+    border-radius: 5%;
+    opacity: 0.8;
 }
 
 #about p{
-    margin: 1em;
-    
+    margin: 2em;
+    margin-top: 4em;
+    color: black;
 }
 
 /*============================================================BLOG
@@ -106,6 +114,8 @@ nav a{
 }
 .show img{
     border: 1px solid black;
+    position: relative;
+    display:inline-block;
 }
 
 
